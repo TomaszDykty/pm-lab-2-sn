@@ -1,8 +1,47 @@
 
+//222
+ #include <avr/io.h>
+#define LED_LENGTH 8
+int main()
+{
+  
+  DDRD |= 0XFF;
+  while (1)
+  {
+      for (uint8_t i = 0;i <LED_LENGTH; i++)
+      {
+         PORTD = (1 << i); 
+        for (uint8_t j = 0x1FFFF; j > 0 ; j--)
+        {
+          
+          __asm__ __volatile__("nop");
+        
+        
+        }
+
+      }
+      for (uint8_t i = 1; i < (LED_LENGTH - 1); i++)
+      {
+         PORTD = (PORTD >> 1); 
+        for (uint8_t j = 0x1FFFF; j > 0 ; j--)
+        {
+          
+          __asm__ __volatile__("nop");
+        
+        
+        }
+
+      }
+  } 
+}
 
 
 
 
+
+
+
+/*
  //2-2-1
 #include <avr/io.h>
  int main()
@@ -27,7 +66,7 @@
   }
 }
  
-
+*/
 
 
 
