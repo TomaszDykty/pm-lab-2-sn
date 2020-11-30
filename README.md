@@ -14,3 +14,16 @@ Grupa studencka: WEL18DE1S1
 
 # Pytania do zadań z instrukcji
 
+2-2-1W jaki sposób można określić czas trwania
+opóźnienia zrealizowanego z użyciem pętli? 
+
+-zmieniając czas do którego ma liczyć
+-sterując zegarem zewnętrznym
+
+
+
+ W jaki sposób można określić czas trwania
+opóźnienia zrealizowanego z użyciem pętli?
+
+
+
