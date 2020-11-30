@@ -11,5 +11,6 @@ Data: 24.04.2020 r.
 Imię i nazwisko studenta: Tomasz Dykty  
 Numer albumu: 72524  
 Grupa studencka: WEL18DE1S1
+
 # Pytania do zadań z instrukcji
 
