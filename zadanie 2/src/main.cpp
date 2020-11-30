@@ -1,6 +1,6 @@
 
 
-
+/*
 //231
 #include <Arduino.h>
 volatile int state = LOW;
@@ -25,11 +25,7 @@ void myISR() {
  state = !state;
  digitalWrite(12, state);
 }
-
-
-
-
-/*
+*/
 //232
 #include <Arduino.h>
 volatile int state = LOW;
@@ -55,7 +51,7 @@ ISR(INTO_vect){
   digitalWrite(12, state);
 }
 
-*/
+
 
 
 
